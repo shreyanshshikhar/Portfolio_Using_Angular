@@ -1,0 +1,240 @@
+                                                                                                            @import url('https://fonts.googleapis.com/css2?family=Anton&family=Nosifer&display=swap');
+                                                                                                            .content {
+                                                                                                                background-color: #E3FDFD;
+                                                                                                                height: 100vh;
+                                                                                                                width: 100%;
+                                                                                                                display: flex;
+                                                                                                                justify-content: center;
+                                                                                                                align-items: center;
+                                                                                                                margin-bottom: -3em;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .text {
+                                                                                                                position: relative;
+                                                                                                                top: -15em;
+                                                                                                                right: -30em;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .text h1,
+                                                                                                            .text h3 {
+                                                                                                                font-family: 'Nosifer', sans-serif;
+                                                                                                                text-align: center;
+                                                                                                                color: #FFCD4B;
+                                                                                                                font-size: px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .text h3 span {
+                                                                                                                font-family: 'Anton', sans-serif;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .card {
+                                                                                                                width: 100px;
+                                                                                                                /* Adjust the width as needed */
+                                                                                                                height: 100px;
+                                                                                                                /* Adjust the height as needed */
+                                                                                                                border: 1px solid transparent;
+                                                                                                                background-color: #f0f0f0;
+                                                                                                                text-align: center;
+                                                                                                                padding: 2px 6em;
+                                                                                                                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+                                                                                                                display: flex;
+                                                                                                                position: relative;
+                                                                                                                flex-direction: column;
+                                                                                                                justify-content: center;
+                                                                                                                align-items: center;
+                                                                                                                margin-right: 30px;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .card:hover {
+                                                                                                                border: 3px solid black;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .card img {
+                                                                                                                max-height: 30px;
+                                                                                                                border-radius: 50%;
+                                                                                                                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+                                                                                                            }
+                                                                                                            
+                                                                                                            .title {
+                                                                                                                font-weight: bold;
+                                                                                                                margin: 10px 5px;
+                                                                                                                z-index: 99;
+                                                                                                                font-family: 'Nosifer', sans-serif;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .card-container {
+                                                                                                                display: flex;
+                                                                                                                flex-wrap: wrap;
+                                                                                                                /* Enable wrapping to the next row */
+                                                                                                                justify-content: center;
+                                                                                                                /* Center cards horizontally */
+                                                                                                                margin-right: -20px;
+                                                                                                                position: absolute;
+                                                                                                                gap: 40px;
+                                                                                                                margin-bottom: -6rem;
+                                                                                                            }
+                                                                                                            
+                                                                                                            .content .box {
+                                                                                                                display: flex;
+                                                                                                                justify-content: space-between;
+                                                                                                                align-items: center;
+                                                                                                                height: 86vh;
+                                                                                                                width: 98%;
+                                                                                                                margin-top: -80px;
+                                                                                                                padding: 0 60px;
+                                                                                                                border-radius: 50px;
+                                                                                                                background-color: #364F6B;
+                                                                                                                position: relative;
+                                                                                                                backdrop-filter: blur(10px);
+                                                                                                                box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+                                                                                                                border: 1px solid transparent;
+                                                                                                            }
+                                                                                                            
+                                                                                                            @media screen and (max-width: 1280px) and (max-height: 3600px) {
+                                                                                                                .text {
+                                                                                                                    display: flex;
+                                                                                                                    justify-content: center;
+                                                                                                                    align-items: center;
+                                                                                                                    flex-direction: row-reverse;
+                                                                                                                }
+                                                                                                                .text h1 {
+                                                                                                                    position: relative;
+                                                                                                                    top: -1.8em;
+                                                                                                                    left: -2em;
+                                                                                                                    display: block;
+                                                                                                                }
+                                                                                                                .text h3 {
+                                                                                                                    position: absolute;
+                                                                                                                    top: -1rem;
+                                                                                                                    left: -1em;
+                                                                                                                }
+                                                                                                            }
+                                                                                                            
+                                                                                                            @media only screen and (max-width: 768px) {
+                                                                                                                .card-container {
+                                                                                                                    display: flex;
+                                                                                                                    flex-wrap: wrap;
+                                                                                                                    justify-content: center;
+                                                                                                                    margin-right: -5px;
+                                                                                                                    gap: 8px;
+                                                                                                                    margin-bottom: -8rem;
+                                                                                                                }
+                                                                                                                .content .box {
+                                                                                                                    justify-content: space-around;
+                                                                                                                    align-items: center;
+                                                                                                                }
+                                                                                                                .card {
+                                                                                                                    width: 130px;
+                                                                                                                    height: 65px;
+                                                                                                                    padding: 4px 4em;
+                                                                                                                }
+                                                                                                                .card img {
+                                                                                                                    max-height: 20px;
+                                                                                                                    border-radius: 50%;
+                                                                                                                    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+                                                                                                                }
+                                                                                                                .title {
+                                                                                                                    font-weight: bold;
+                                                                                                                    font-size: 10px;
+                                                                                                                    margin: 6px 2px;
+                                                                                                                    z-index: 99;
+                                                                                                                    font-family: 'Nosifer', sans-serif;
+                                                                                                                }
+                                                                                                                .text {
+                                                                                                                    position: relative;
+                                                                                                                    top: -10em;
+                                                                                                                    right: -1em;
+                                                                                                                }
+                                                                                                            }
+                                                                                                            
+                                                                                                            @media only screen and (max-width: 577px) {
+                                                                                                                .content .box {
+                                                                                                                    justify-content: space-around;
+                                                                                                                    align-items: center;
+                                                                                                                }
+                                                                                                                .card-container {
+                                                                                                                    display: flex;
+                                                                                                                    flex-wrap: wrap;
+                                                                                                                    justify-content: center;
+                                                                                                                    margin-right: -5px;
+                                                                                                                    gap: 3px;
+                                                                                                                    margin-bottom: -8rem;
+                                                                                                                }
+                                                                                                            }
+                                                                                                            
+                                                                                                            @media only screen and (max-width: 531px) {
+                                                                                                                .card-container {
+                                                                                                                    gap: 3px;
+                                                                                                                }
+                                                                                                            }
+                                                                                                            
+                                                                                                            @media only screen and (max-width: 503px) {
+                                                                                                                .card {
+                                                                                                                    width: 40px;
+                                                                                                                    height: 60px;
+                                                                                                                    margin-right: 1em;
+                                                                                                                    margin-bottom: 4px;
+                                                                                                                }
+                                                                                                                .title {
+                                                                                                                    font-weight: bold;
+                                                                                                                    font-size: 8px;
+                                                                                                                }
+                                                                                                                .text {
+                                                                                                                    position: relative;
+                                                                                                                    top: -10em;
+                                                                                                                    right: -1em;
+                                                                                                                }
+                                                                                                            }
+                                                                                                            
+                                                                                                            @media (min-width: 320px) and (max-width: 449px) {
+                                                                                                                .card {
+                                                                                                                    width: 36%;
+                                                                                                                    height: 4em;
+                                                                                                                }
+                                                                                                                .content {
+                                                                                                                    height: 120vh;
+                                                                                                                }
+                                                                                                                .content .box {
+                                                                                                                    height: 80vh;
+                                                                                                                    position: relative;
+                                                                                                                    margin-top: -73em;
+                                                                                                                    z-index: 1;
+                                                                                                                }
+                                                                                                                .text {
+                                                                                                                    display: flex;
+                                                                                                                    justify-content: center;
+                                                                                                                    align-items: center;
+                                                                                                                    flex-direction: row-reverse;
+                                                                                                                }
+                                                                                                                .text h1 {
+                                                                                                                    font-size: 20px;
+                                                                                                                    position: relative;
+                                                                                                                    top: -5em;
+                                                                                                                    left: -1em;
+                                                                                                                    display: block;
+                                                                                                                }
+                                                                                                                .text h3 {
+                                                                                                                    position: absolute;
+                                                                                                                    top: -5em;
+                                                                                                                    font-size: 15px;
+                                                                                                                }
+                                                                                                                .card-container {
+                                                                                                                    margin-top: -5rem;
+                                                                                                                }
+                                                                                                            }
+                                                                                                            
+                                                                                                            @media screen and (max-width: 428px) and (max-height: 926px) {
+                                                                                                                .content .box {
+                                                                                                                    box-shadow: none;
+                                                                                                                    border-radius: 0;
+                                                                                                                }
+                                                                                                                .content {
+                                                                                                                    background-color: #364F6B;
+                                                                                                                }
+                                                                                                            }
+                                                                                                            
+                                                                                                            @media screen and (max-width: 412px) and (max-height: 915px) {
+                                                                                                                .content .box {
+                                                                                                                    height: 70vh;
+                                                                                                                }
+                                                                                                            }

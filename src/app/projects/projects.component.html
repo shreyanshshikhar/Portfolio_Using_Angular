@@ -1,0 +1,22 @@
+<div class="content">
+    <div class="box">
+        <div class="section">
+            <h1 data-aos="zoom-in" data-aos-delay="300" class="typewriter">PROJECTS</h1>
+
+            <div class="card" *ngFor="let item of items" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <img [src]="item.imageUrl" class="card-img-top" alt="Image Alt Text">
+                <div class="card-body">
+                    <h5 class="card-title ">
+                        <STRONG>{{ item.title }}</STRONG>
+                    </h5>
+                    <p class="card-text ">{{ item.description }}</p>
+                    <a [href]=" item.githubLink " class="btn glow-on-hover " target="_blank ">🔗GitHub Link</a>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+</div>

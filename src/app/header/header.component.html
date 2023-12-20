@@ -1,0 +1,46 @@
+<header>
+    <div class="logos">
+        <a href="#" class="logo">S</a>
+        <a href="#" class="logo">h</a>
+        <a href="#" class="logo">r</a>
+        <a href="#" class="logo">e</a>
+        <a href="#" class="logo">y</a>
+        <a href="#" class="logo">a</a>
+        <a href="#" class="logo">n</a>
+        <a href="#" class="logo">s</a>
+        <a href="#" class="logo">h</a>
+    </div>
+    <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <nav class="nav-bar ">
+        <ul>
+            <li>
+                <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+            </li>
+            <li>
+                <a routerLink="/about" routerLinkActive="active">About</a>
+            </li>
+            <li>
+                <a routerLink="/skills" routerLinkActive="active">Skills</a>
+            </li>
+            <li>
+                <a routerLink="/education" routerLinkActive="active">Educations</a>
+            </li>
+            <li>
+                <a routerLink="/projects" routerLinkActive="active">Projects</a>
+            </li>
+            <li>
+                <a routerLink="/certifications" routerLinkActive="active" style="cursor:pointer;">Certificates</a>
+            </li>
+            <li>
+                <a routerLink="/contact" routerLinkActive="active">Contact us</a>
+            </li>
+            <li class="whatsapp-logo" (click)="openWhatsApp()">
+                <i class="whatsapp-icon"></i>
+            </li>
+        </ul>
+    </nav>
+</header>
