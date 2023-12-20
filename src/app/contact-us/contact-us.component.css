@@ -155,9 +155,3 @@
                                                                                                                                 width: 100%
                                                                                                                             }
                                                                                                                         }
-                                                                                                                        
-                                                                                                                        @media screen and (max-width: 428px) and (max-height: 926px) {
-                                                                                                                            .contact {
-                                                                                                                                margin-top: -44em;
-                                                                                                                            }
-                                                                                                                        }
