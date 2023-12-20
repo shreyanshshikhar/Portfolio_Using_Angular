@@ -391,7 +391,6 @@
                                                                                                                         .content .box {
                                                                                                                             flex-direction: column;
                                                                                                                             height: 76vh;
-                                                                                                                            margin-top: -17em;
                                                                                                                             z-index: 4;
                                                                                                                         }
                                                                                                                     }
@@ -448,6 +447,9 @@
                                                                                                                         .box .section-2 img {
                                                                                                                             width: 100%;
                                                                                                                             transform: scaleX(2) scaleY(2.1) skew(11deg) translateY(50%) rotateX(-30deg) translateX(18%);
+                                                                                                                        }
+                                                                                                                       .content .box {
+                                                                                                                            height: 100vh;
                                                                                                                         }
                                                                                                                     }
                                                                                                                     
