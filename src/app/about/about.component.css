@@ -235,9 +235,6 @@
                             }
                             .content .box {
                                 flex-direction: column;
-                                margin-top: -43.5em;
-                                height: 64vh;
-                                z-index: 3;
                             }
                         }
                         
@@ -250,6 +247,12 @@
                                 max-height: 200px;
                                 transform: scale(2);
                             }
+                            .content .box {
+                                                height: 100vh;
+                                                z-index: 90;
+                                                margin-top: 1em;
+                                                /*one*/
+                                            }
                         }
                         /*fresh responsive code from here*/
                         
