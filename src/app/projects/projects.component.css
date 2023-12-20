@@ -175,7 +175,6 @@
                     
                     @media screen and (max-width: 428px) and (max-height: 926px) {
                         .content .box {
-                            margin-top: -98.5em;
                             overflow-y: scroll;
                         }
                         .card {
@@ -215,13 +214,10 @@
                         .about-text p {
                             padding: 20px;
                         }
-                        .content .box {
-                            margin-top: -100em;
-                        }
                     }
                     
                     @media screen and (max-width: 360px) and (max-height: 780px) {
                         .content .box {
-                            margin-top: -90em;
+                            height: 60vh;
                         }
                     }
