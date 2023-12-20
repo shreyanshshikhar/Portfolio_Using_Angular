@@ -1,157 +1,168 @@
-                .content {
-                    background-color: #E3FDFD;
-                    height: 100vh;
-                    width: 100%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                }
-                
-                .content .box {
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                    height: 86vh;
-                    width: 98%;
-                    margin-top: -80px;
-                    padding: 0 60px;
-                    border-radius: 50px;
-                    background: url(https://corp.tutorocean.com/wp-content/uploads/2020/11/WP-Blog-images-450x300-65.png);
-                    position: sticky;
-                    overflow: hidden;
-                    backdrop-filter: blur(100%);
-                    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-                    border: 1px solid transparent;
-                    background-repeat: repeat;
-                    background-size: contain;
-                    backdrop-filter: blur(100%);
-                    /* Apply a very high blur effect to the background */
-                    /* Apply a blur effect to the background */
-                }
-                
-                .timeline {
-                    position: sticky;
-                    max-width: 1200px;
-                    margin: 100px auto;
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: space-between;
-                }
-                
-                .container {
-                    padding: 10px;
-                    position: relative;
-                    width: 50%;
-                    margin: 20px;
-                }
-                
-                .text-box {
-                    padding: 20px;
-                    background: #fff;
-                    cursor: pointer;
-                    border-radius: 6px;
-                    font-size: 15px;
-                    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-                }
-                
-                .left-container {
-                    left: -1%;
-                }
-                
-                .right-container {
-                    left: 47%;
-                }
-                
-                .timeline::after {
-                    content: '';
-                    position: absolute;
-                    width: 6px;
-                    background-color: white;
-                    top: 5%;
-                    bottom: 5%;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    z-index: 1;
-                    border-radius: 3px;
-                    box-shadow: 0 0 10px white;
-                    animation: growLine 2s linear;
-                }
-                
-                .text {
-                    border-radius: 40px;
-                    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
-                    transition: background-image 0.3s ease;
-                    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-                }
-                
-                .text:hover {
-                    background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
-                    cursor: zoom-in;
-                }
-                
-                .text h1 {
-                    font-family: 'Nosifer', sans-serif;
-                    color: #FFA500;
-                    padding: 10px;
-                    font-weight: bold;
-                }
-                
-                @keyframes growLine {
-                    0% {
-                        height: 0;
-                    }
-                    100% {
-                        height: 80%;
-                    }
-                }
-                
-                @media screen and (max-width: 1280px) and (max-height: 3600px) {
-                    .right-container {
-                        left: 46%;
-                    }
-                }
-                
-                @media screen and (max-width: 428px) and (max-height: 926px) {
                     .content {
-                        align-items: flex-start;
+                        background-color: #E3FDFD;
+                        height: 100vh;
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
                     }
+                    
                     .content .box {
-                        height: auto;
-                        margin-top: -43em;
-                        padding: 20px;
-                        position: relative;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        height: 86vh;
+                        width: 98%;
+                        margin-top: -80px;
+                        padding: 0 60px;
+                        border-radius: 50px;
+                        background: url(https://corp.tutorocean.com/wp-content/uploads/2020/11/WP-Blog-images-450x300-65.png);
+                        position: sticky;
+                        overflow: hidden;
+                        backdrop-filter: blur(100%);
+                        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+                        border: 1px solid transparent;
+                        background-repeat: repeat;
+                        background-size: contain;
+                        backdrop-filter: blur(100%);
+                        /* Apply a very high blur effect to the background */
+                        /* Apply a blur effect to the background */
                     }
+                    
                     .timeline {
-                        margin: 20px 0;
+                        position: sticky;
+                        max-width: 1200px;
+                        margin: 100px auto;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
                     }
+                    
                     .container {
-                        width: 95%;
-                        margin: 10px 0;
+                        padding: 10px;
+                        position: relative;
+                        width: 50%;
+                        margin: 20px;
                     }
+                    
+                    .text-box {
+                        padding: 20px;
+                        background: #fff;
+                        cursor: pointer;
+                        border-radius: 6px;
+                        font-size: 15px;
+                        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+                    }
+                    
                     .left-container {
-                        left: -10%;
-                        margin-top: 30px;
+                        left: -1%;
                     }
-                    .timeline::after {
-                        display: none;
-                    }
-                    .text {
-                        position: absolute;
-                        top: 13px;
-                        left: 80px;
-                    }
-                    .text h1 {
-                        padding: 3px;
-                        font-weight: 500;
-                    }
+                    
                     .right-container {
-                        left: 20%;
+                        left: 47%;
                     }
-                    .content .box {
-                        box-shadow: none;
-                        border-radius: 0;
+                    
+                    .timeline::after {
+                        content: '';
+                        position: absolute;
+                        width: 6px;
+                        background-color: white;
+                        top: 5%;
+                        bottom: 5%;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        z-index: 1;
+                        border-radius: 3px;
+                        box-shadow: 0 0 10px white;
+                        animation: growLine 2s linear;
                     }
-                    .content {
-                        background-color: #364F6B;
+                    
+                    .text {
+                        border-radius: 40px;
+                        background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+                        transition: background-image 0.3s ease;
+                        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
                     }
-                }
+                    
+                    .text:hover {
+                        background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+                        cursor: zoom-in;
+                    }
+                    
+                    .text h1 {
+                        font-family: 'Nosifer', sans-serif;
+                        color: #FFA500;
+                        padding: 10px;
+                        font-weight: bold;
+                    }
+                    
+                    @keyframes growLine {
+                        0% {
+                            height: 0;
+                        }
+                        100% {
+                            height: 80%;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 1280px) and (max-height: 3600px) {
+                        .right-container {
+                            left: 46%;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 428px) and (max-height: 926px) {
+                        .content {
+                            align-items: flex-start;
+                        }
+                        .content .box {
+                            padding: 20px;
+                            position: relative;
+                        }
+                        .timeline {
+                            margin: 20px 0;
+                        }
+                        .container {
+                            width: 95%;
+                            margin: 10px 0;
+                        }
+                        .left-container {
+                            left: -10%;
+                            margin-top: 30px;
+                        }
+                        .timeline::after {
+                            display: none;
+                        }
+                        .text {
+                            position: absolute;
+                            top: 13px;
+                            left: 80px;
+                        }
+                        .text h1 {
+                            padding: 3px;
+                            font-weight: 500;
+                        }
+                        .right-container {
+                            left: 20%;
+                        }
+                        .content .box {
+                            box-shadow: none;
+                            border-radius: 0;
+                        }
+                        .content {
+                            background-color: #364F6B;
+                        }
+                    }
+                    
+                    @media screen and (min-width: 320px) and (max-width: 390px) {
+                        .content .box {
+                            height: 150vh;
+                            padding: 20px;
+                            position: relative;
+                        }
+                        .text {
+                            position: absolute;
+                            top: 60px;
+                            left: 80px;
+                        }
+                    }
