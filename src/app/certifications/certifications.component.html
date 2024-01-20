@@ -1,12 +1,17 @@
-<!-- coming-soon.component.html -->
-<div class="container mt-5">
+<div class=" mt container-fluid">
     <div class="row justify-content-center">
-        <div class="col-md-8 text-center">
-            <h1 class="display-3">To Be Added Soon!
-            </h1>
-            <p class="lead">Go Back To <strong><a routerLink="/" style="text-decoration: none;">Home page</a></strong></p>
-            <div class="mt-4">
-                <img src="https://media.istockphoto.com/id/1283050796/vector/flat-design-under-construction-concept.jpg?s=612x612&w=0&k=20&c=CATQe8sEl7YdpwxZ4VHwYh5FjHY9MkbyRNhALyslZwA=" alt="Under Construction" class="img-fluid">
+        <div class="col-lg-8 col-md-12 text-center">
+            <div *ngFor="let certificate of certificates" class="mt-3">
+                <div class="card-header fw-bold display-6">
+                    {{ certificate.title }}
+                </div>
+                <br>
+                <div class="card-body">
+                    <img [src]="certificate.imageUrl" alt="Certificate Image" class="img-fluid mb-3" style="max-width: 50%; height: auto;">
+                    <p class="fw-bold ">Certificate:
+                        <a [href]="certificate.link" target="_blank" class="fw-bolder" style="text-decoration: none;">Click🔗</a>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
