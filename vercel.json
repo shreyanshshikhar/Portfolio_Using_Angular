@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://shreyansh-03.vercel.app/",
+      "permanent": true
+    }
+  ]
+}
